@@ -5,19 +5,19 @@ This C++ project serves as a demonstration of various threading and synchronizat
 ## Features
 
 Thread Locking and Synchronization:
-    Basic usage of `std::mutex` and `std::condition_variable` for thread synchronization.
+    Basic usage of std::mutex and std::condition_variable for thread synchronization.
 
  Thread Yielding:
-    Utilization of `std::this_thread::yield()` to allow threads to voluntarily yield their turn.
+    Utilization of std::this_thread::yield()` to allow threads to voluntarily yield their turn.
 
- Atomic Operations:**
-   - Safe incrementing of a counter using `std::atomic`.
+ Atomic Operations:
+    Safe incrementing of a counter using std::atomic.
 
  Asynchronous Task Execution:
-   Use of `std::packaged_task` for asynchronous execution of a simple addition function.
+   Use of std::packaged_task for asynchronous execution of a simple addition function.
 
  Communication Between Threads:
-   Demonstration of inter-thread communication using `std::promise` and `std::future`.
+   Demonstration of inter-thread communication using std::promise and std::future.
 
 ## How to Use
 
